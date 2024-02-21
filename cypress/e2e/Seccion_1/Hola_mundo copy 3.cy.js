@@ -15,7 +15,5 @@ describe ('Primer Test con Cypress', () =>{
         cy.get('#permanentAddress').should("be.visible").type("Direccion 2")
         cy.wait(t)
         cy.get('#submit').should('be.visible').click({force:true})
-        cy.wait(t)
-        cy.log('Hola Mundo')
     })
 })
