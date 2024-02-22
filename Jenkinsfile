@@ -26,7 +26,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/Kairos31415/Paralelo_pipeline.git'
                         bat 'npm install'                   
-                        bat 'npx cypress run cypress run --record --key 1e38de46-290f-4ce1-9f6a-d083174df49b --parallel'
+                        bat 'npx cypress run npx cypress run --record --key 1e38de46-290f-4ce1-9f6a-d083174df49b --parallel'
                     
                     }
                 }
@@ -38,7 +38,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/Kairos31415/Paralelo_pipeline.git'
                         bat 'npm install'                      
-                        bat 'npx cypress run cypress run --record --key 1e38de46-290f-4ce1-9f6a-d083174df49b --parallel'
+                        bat 'npx cypress run npx cypress run --record --key 1e38de46-290f-4ce1-9f6a-d083174df49b --parallel'
                     
                     }
                 
